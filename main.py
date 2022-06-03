@@ -550,6 +550,21 @@
 # else:
 #     print("Xush kelibsiz!")
 
+py_lugat = {
+    'value':'qiymat',
+    'key':'klit',
+    'print':'chiqarish',
+    'if':'agar',
+    'else':'yoki',
+    'for':'uchun',
+    'title':'bosh katta yozuv',
+    'append':"Qo'shish",
+    'sorted':'tartiblash',
+    'input':'kiritish',
+    'float':"o'nlik son",
+    'integer':'butun son'
+}
+
 
 
 
