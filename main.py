@@ -564,7 +564,9 @@ py_lugat = {
     'float':"o'nlik son",
     'integer':'butun son'
 }
-
+print(f"Pythobdagi lug'at so'zlar: ")
+for py, lugat in sorted(py_lugat.items()):
+    print(f"{py.title()} - {lugat}")
 
 
 
