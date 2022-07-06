@@ -550,32 +550,60 @@
 # else:
 #     print("Xush kelibsiz!")
 
-py_lugat = {
-    'value':'qiymat',
-    'key':'klit',
-    'print':'chiqarish',
-    'if':'agar',
-    'else':'yoki',
-    'for':'uchun',
-    'title':'bosh katta yozuv',
-    'append':"Qo'shish",
-    'sorted':'tartiblash',
-    'input':'kiritish',
-    'float':"o'nlik son",
-    'integer':'butun son'
-}
-print(f"Pythobdagi lug'at so'zlar: ")
-for py, lugat in sorted(py_lugat.items()):
-    print(f"{py.title()} - {lugat}")
+# py_lugat = {
+#     'value':'qiymat',
+#     'key':'klit',
+#     'print':'chiqarish',
+#     'if':'agar',
+#     'else':'yoki',
+#     'for':'uchun',
+#     'title':'bosh katta yozuv',
+#     'append':"Qo'shish",
+#     'sorted':'tartiblash',
+#     'input':'kiritish',
+#     'float':"o'nlik son",
+#     'integer':'butun son'
+# }
+# print(f"Pythobdagi lug'at so'zlar: ")
+# for py, lugat in sorted(py_lugat.items()):
+#     print(f"{py.title()} - {lugat}")
 
 
+# davlatlar = {
+#     "o'zbekiston":'toshkent',
+#     'aqsh':'washington d.c.',
+#     'rossiya':'moskva',
+#     'tojikiston':'dushanbe',
+#     "qirg'iziston":'bishkek',
+#     'qozog\'iston':'nursulton',
+#     'malayziya':'kuala-lumpur',
+#     'singapur':'sungapur',
+#     'italiya':'rim'}
+# print("Dunyo davlatlari: ")
+# for key in sorted(davlatlar):
+#     print(key.upper())
+# print("\n Davlatlarning poytaxtlari: ")
+# for value in sorted(davlatlar.values()):
+#     print(value.title())
 
 
-
-
-
-
-
+# davlatlar = {
+#     "o'zbekiston":'toshkent',
+#     'aqsh':'washington d.c.',
+#     'rossiya':'moskva',
+#     'tojikiston':'dushanbe',
+#     "qirg'iziston":'bishkek',
+#     'qozog\'iston':'nursulton',
+#     'malayziya':'kuala-lumpur',
+#     'singapur':'sungapur',
+#     'italiya':'rim'}
+#
+# davlat = input("Siz qaysi mamlakatdansiz >>>  ").lower()
+# poytaxt = davlatlar.get(davlat)
+# if poytaxt == None:
+#     print("Kechirasiz siz ro'yxatda yoq davlatda yashaysiz!")
+# else:
+#     print(f"{davlat.upper()}ning poytaxti {poytaxt.title()} shaxrida yashaysiz bu bizni ro'yxatda mavjud!")
 
 
 
