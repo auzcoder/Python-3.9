@@ -606,7 +606,6 @@
 #     print(f"{davlat.upper()}ning poytaxti {poytaxt.title()} shaxrida yashaysiz bu bizni ro'yxatda mavjud!")
 
 
-
 # menu = {
 #         'osh':20000,
 #         "lag'mon":22000,
